@@ -8,14 +8,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'popins', 'Inter', sans-serif;
-    /* border: 2px solid red; */
+    /* border: 1px solid red; */
 
 }
 
 .container {
 
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     background-color: aqua;
     display: flex;
     flex-direction: column;
@@ -36,19 +36,19 @@ nav {
 }
 
 .nav-links {
-    width: 420px;
+    width: 400px;
     font-size: 14px;
     font-weight: 500;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
-    margin-right: 230px;
+    margin-right: 120px;
 
 }
 
 .nav-links-secondary {
-    width: 450px;
+    width: 400px;
     font-weight: 500;
     font-size: 14px;
     display: flex;
@@ -69,6 +69,7 @@ nav img {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 5px;
+    padding-left: 10px;
 
 }
 
@@ -84,6 +85,7 @@ nav img {
 
 .hero-section {
     height: 650px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -99,7 +101,7 @@ nav img {
 .hero-section h1 {
     color: white;
     padding: 10px 0;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 300;
 }
 
@@ -107,7 +109,7 @@ nav img {
 
     color: white;
     padding: 20px 0;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
 }
 
@@ -117,7 +119,7 @@ nav img {
     font-size: 16px;
     font-weight: 500;
     border-radius: 2px;
-    padding: 13px 90px;
+    padding: 10px 80px;
     cursor: pointer;
 }
 
@@ -127,7 +129,7 @@ nav img {
 
 .section-2 {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,7 +137,7 @@ nav img {
 }
 
 .text-section-2 {
-    width: 34%;
+    width: 40%;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -167,7 +169,7 @@ nav img {
 
 
 .buy-btn {
-    padding: 10px 80px;
+    padding: 10px 75px;
     background-color: black;
     color: white;
     font-size: 15px;
@@ -179,7 +181,7 @@ nav img {
 }
 
 .learn-btn {
-    padding: 10px 70px;
+    padding: 10px 60px;
     background-color: white;
     color: black;
     font-size: 15px;
@@ -191,7 +193,7 @@ nav img {
 
 .image-section-2 {
     height: 500px;
-    width: 65%;
+    width: 60%;
     display: flex;
     justify-content: center;
     background-color: lightgreen;
@@ -221,7 +223,7 @@ nav img {
 
 .tv-section {
     height: 400px;
-    width: 660px;
+    width: 520px;
     display: flex;
     justify-content: space-between;
     background-color: #F8F8F8;
@@ -229,7 +231,7 @@ nav img {
 
 .buds-section {
     height: 400px;
-    width: 660px;
+    width: 520px;
     display: flex;
     justify-content: space-between;
     background-color: #F8F8F8;
@@ -237,7 +239,7 @@ nav img {
 }
 
 .tv-text-section {
-    width: 370px;
+    width: 360px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -246,7 +248,7 @@ nav img {
 }
 
 .tv-image-section {
-    width: 290px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,7 +256,7 @@ nav img {
 
 .tv-image-section img {
 
-    height: 320px;
+    height: 250px;
     transition: all ease-in-out 0.2s;
 }
 
@@ -263,11 +265,11 @@ nav img {
 }
 
 .tv-text-section .buy-btn {
-    padding: 10px 52px;
+    padding: 10px 35px;
 }
 
 .tv-text-section .learn-btn {
-    padding: 10px 40px;
+    padding: 10px 20px;
 
 }
 
@@ -328,9 +330,10 @@ nav img {
     border-bottom: 1px solid red;
 }
 
+
 .oneplus-product {
     margin-top: 20px;
-    height: 505px;
+    height: 410px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -342,15 +345,15 @@ nav img {
 }
 
 .trending-product {
-    width: 320px;
-    height: 500px;
+    width: 200px;
+    height: 400px;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
 }
 
 .trending-product img {
-    width: 300px;
+    width: 200px;
     transition: all ease-in-out 0.3s;
 }
 
@@ -377,9 +380,10 @@ nav img {
 
 
 #from-btn {
-    padding: 10px 0;
-    width: 310px;
+    height: 40px;
+    width: 270px;
     display: flex;
+    align-items: center;
     background-color: white;
     border: none;
     border-radius: 2px;
@@ -415,7 +419,7 @@ nav img {
 
 #uper-h1 {
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     padding: 25px 0;
     font-weight: 400;
     font-weight: 300;
@@ -435,20 +439,20 @@ nav img {
     display: flex;
     height: 450px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 
 .text-section-5 {
     display: flex;
-    width: 500px;
+    width: 450px;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px 10px;
 }
 
 .image-section-5 {
-    width: 975px;
+    width: 800px;
     background-position: center;
     background-size: cover;
     background-image: url("./assets/section-5-img.webp");
@@ -498,7 +502,7 @@ nav img {
 }
 
 .image-section-6 {
-    width: 975px;
+    width: 800px;
     background-position: center;
     background-size: cover;
     background-image: url("./assets/section_6-image.webp");
@@ -516,7 +520,7 @@ nav img {
 
 .oxygen-section {
     height: 400px;
-    width: 650px;
+    width: 520px;
     display: flex;
     justify-content: space-between;
     background-color: #222222;
@@ -524,7 +528,7 @@ nav img {
 
 .award-section {
     height: 400px;
-    width: 650px;
+    width: 520px;
     display: flex;
     justify-content: space-between;
     background-color: #222222;
@@ -618,7 +622,7 @@ nav img {
 
 .section-9 {
     width: 100%;
-    height: 90vh;
+    min-height: 90vh;
     padding: 55px 100px;
 
 }
@@ -694,7 +698,7 @@ nav img {
 
 .section-10 {
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
     padding: 55px 100px;
     display: flex;
     flex-wrap: wrap;
@@ -703,9 +707,8 @@ nav img {
 
 .section-10-parts {
     display: flex;
-    /* flex-wrap: wrap; */
-    width: 430px;
-    height: 500px;
+    width: 340px;
+    height: 450px;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -762,13 +765,19 @@ nav img {
 .main-section-11 {
     display: flex;
     height: 400px;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 25px;
     flex-wrap: wrap;
 }
 
 .helpdesk-section-11 {
-    width: 645px;
+    width: 520px;
+    height: 400px;
+    display: flex;
+}
+
+.technical-section-11 {
+    width: 520px;
     height: 400px;
     display: flex;
 }
@@ -807,11 +816,7 @@ nav img {
     padding-bottom: 2px;
 }
 
-.technical-section-11 {
-    width: 645px;
-    height: 400px;
-    display: flex;
-}
+
 
 .image-section-11a {
     width: 305px;
@@ -833,14 +838,12 @@ nav img {
 
 .down-section {
     margin-top: 60px;
-    /* background-color: red; */
     display: flex;
     justify-content: space-between;
 }
 
 .down-sections {
     padding: 25px 0;
-    /* background-color:yellow; */
     width: 330px;
     display: flex;
     justify-content: center;
@@ -884,7 +887,7 @@ nav img {
 }
 
 .google-play {
-    width: 650px;
+    width: 520px;
     height: 350px;
     padding: 15px 20px;
     display: flex;
@@ -897,7 +900,7 @@ nav img {
 }
 
 .email {
-    width: 650px;
+    width: 520px;
     height: 350px;
     padding: 15px 20px;
     display: flex;
@@ -1017,14 +1020,15 @@ nav img {
     list-style: none;
 }
 
-.main-section-13 LI {
-    margin: 25px 0;
+.main-section-13 li {
+    margin: 20px 0;
+    font-size: 15px;
 }
 
 
 .main-section-13 h3 {
     font-weight: 500;
-    font-size: 18PX;
+    font-size: 20px;
 
 
 }
@@ -1034,11 +1038,10 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .banking {
-    width: 450px;
+    width: 480px;
     display: flex;
     list-style: none;
     align-items: center;
@@ -1065,17 +1068,13 @@ nav img {
 .contact {
     height: 40px;
     font-size: 20px;
-    width: 280px;
+    width: 298px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     list-style: none;
 }
 
-.contact {
 
-    margin-left: 420px;
-    justify-content: flex-end;
-}
 
 .contact a {
     text-decoration: none;
@@ -1086,10 +1085,11 @@ nav img {
 
 .social {
     padding-top: 7px;
-    width: 140px;
+    width: 100px;
     color: rgb(109, 107, 107);
     font-size: 25px;
     display: flex;
+    margin-right: 0;
     justify-content: space-between;
 }
 
@@ -1209,7 +1209,7 @@ footer img {
 
     .text-section-2 img {
         display: block;
-        height: 300px;
+        height: 100%;
     }
 
 
@@ -1270,11 +1270,18 @@ footer img {
 
     .section-4 {
         padding: 20px 27px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         height: auto;
+        align-items: center;
     }
 
     .oneplus-product {
         height: auto;
+        width: 50%;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
 
@@ -1374,8 +1381,9 @@ footer img {
     }
 
     .section-8 {
-        height: 105vh;
+        height: auto;
         padding: 20px 27px;
+        justify-content: center;
     }
 
     .image-section-8 {
@@ -1389,6 +1397,9 @@ footer img {
 
     .section-9-second {
         padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .image-section-9 {
@@ -1430,7 +1441,7 @@ footer img {
 
     .main-section-11 {
         height: auto;
-
+        justify-content: center;
     }
 
     .down-section {
@@ -1450,12 +1461,16 @@ footer img {
 
     .helpdesk-section-11 {
         justify-content: center;
+        flex-wrap: wrap;
+        height: auto;
 
     }
 
     .technical-section-11 {
         justify-content: center;
         margin-top: 10px;
+        flex-wrap: wrap;
+        height: auto;
     }
 
     .text-section-11 {
@@ -1491,6 +1506,7 @@ footer img {
 
     .first-section-12 {
         height: 650px;
+        justify-content: center;
     }
 
     .email {
@@ -1528,11 +1544,10 @@ footer img {
 
     .main-section-13 {
         height: auto;
-        /* background-color: red; */
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
-        justify-content: space-between;
+        justify-content: center;
     }
 
 
@@ -1571,11 +1586,12 @@ footer img {
 
     .main-footer {
         flex-wrap: wrap;
+        justify-content: center;
 
     }
 
     .footer-image {
-        width: 500px;
+        width: 100%;
         justify-content: center;
         border-bottom: 1px solid rgb(185, 183, 183);
         padding: 20px 0;
@@ -1590,7 +1606,7 @@ footer img {
     .main-footer li {
         margin: 10px 0 10px 0;
         font-size: 13px;
-     
+
 
     }
 
